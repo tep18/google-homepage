@@ -3,6 +3,11 @@ html {
 	width: 100%;
 }
 
+#favicon {
+	height: 16px;
+	width: 16px;
+}
+
 .top_line {
 	margin-right: 160px;
 }
@@ -23,7 +28,6 @@ html {
 
 li IMG.grid {
 	display: block;
-
 }
 
 .grid {
@@ -34,6 +38,17 @@ li IMG.grid {
 }
 
 .sign_in {
+	position: absolute;
+	border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-color: #4285f4;
+    color: white;
+    right: 15px;
+	top: 0px;
+}
+
+.sign_in:hover {
 	position: absolute;
 	border: 1px solid #4285f4;
     font-weight: bold;
